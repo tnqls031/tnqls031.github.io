@@ -35,6 +35,10 @@
         }
     });
 
+    $('header a#homeA').hover(function() {
+        $('header a#homeA img#homeIcon').attr("src", "images/home2_h.png");
+    })
+
     // Scroll to top
     $('#to-top').click(function() {
         $('html, body').animate({

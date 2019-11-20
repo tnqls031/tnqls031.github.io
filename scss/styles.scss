@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #fafad2;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -198,6 +198,8 @@ header {
     &.active {
         display: block;
     }
+    position: fixed;
+    left: inherit;
 }
 
 #mobile-menu-open {
@@ -350,8 +352,8 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
-    background-size: cover;
+    background: url(../images/BingSuBat.png);
+    background-size: contain;
     padding: 15px;
     overflow: hidden;
 }
