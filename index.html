@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/myStyles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,18 +34,18 @@
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
                 <a href="#projects">Projects</a>
             </li>
-            <li>
+            <li style="display: none;">
+                <a href="#experience">Experience</a>
+            </li>
+            <li style="display: none;">
+                <a href="#education">Education</a>
+            </li>
+            <li style="display: none;">
                 <a href="#skills">Skills</a>
             </li>
-            <li>
+            <li style="display: none;">
                 <a href="#contact">Contact</a>
             </li>
         </ul>
@@ -55,7 +56,7 @@
         <div id="lead-content">
             <h1>빙수밭의 이것저것</h1>
             <h2>Web Programmer</h2>
-            <a href="https://drive.google.com/file/d/1YpdfCToDa1sCObQOV6p2dFoSlcRMqrKi/view?usp=sharing" class="btn-rounded-white">Download Lastest Version</a>
+            <a href="https://bingsubat.tistory.com/" target="_blank" class="btn-rounded-white">Tistory Blog</a>
         </div>
         <!-- End #lead-content -->
 
@@ -78,9 +79,13 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        1993/09/09
+                    </p>
+                    <p>
+                        PungDong High Scool
+                    </p>
+                    <p>
+                        Korea University Computer Information Science
                     </p>
                 </div>
             </div>
@@ -88,7 +93,54 @@
     </div>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/spooncast.jpg" style="width: 300px;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>스푼라디오 매니저 프로그램</h3>
+                        <p>
+                                　　　　　　　　　　　　Python3.7 + FireFox with Selenium　　　　　　　　　　　
+                        </p>
+                        <p>
+                            웹 크롤링을 이용해 방송에서 발생하는 이벤트에 따른 처리 자동화
+                        </p>
+                        <p>
+                            2019.06.08 ~ ing
+                        </p>
+                        <a href="https://bingsubat.tistory.com/" target="_blank">View Project</a><br/>
+                        <a href="https://drive.google.com/file/d/1YpdfCToDa1sCObQOV6p2dFoSlcRMqrKi/view?usp=sharing" target="_blank">Download Lastest Version</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large" style="display: none;">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Project Name Here</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="experience" class="background-alt" style="display: none;">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
             <div data-date="September 2015 – September 2016">
@@ -118,7 +170,7 @@
     </div>
     <!-- End #experience -->
 
-    <div id="education">
+    <div id="education" style="display: none;">
         <h2 class="heading">Education</h2>
         <div class="education-block">
             <h3>University of Ottawa</h3>
@@ -150,47 +202,7 @@
     </div>
     <!-- End #education -->
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
+    <div id="skills" style="display: none;">
         <h2 class="heading">Skills</h2>
         <ul>
             <li>JavaScript</li>
@@ -223,7 +235,7 @@
     </div>
     <!-- End #skills -->
 
-    <div id="contact">
+    <div id="contact" style="display: none;">
         <h2>Get in Touch</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/email@email.com">
@@ -242,7 +254,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 YOUR NAME
+                        Copyright &copy; 2019 빙수밭
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -253,21 +265,21 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/BingSuBat/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://bingsubat.tistory.com/" target="_blank"><img src="images/tistory.png" style="width: 23px; margin-top: -4px;" aria-hidden="true"></i></a>
                         </li>
-                        <li>
+                        <li style="visibility: hidden;">
                             <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
-                        <li>
+                        <li style="visibility: hidden;">
                             <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
-                        <li>
+                        <li style="visibility: hidden;">
                             <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </li>
-                        <li>
+                        <li style="visibility: hidden;">
                             <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         </li>
                     </ul>
@@ -279,6 +291,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="js/myScript.js"></script>
 </body>
 
 </html>

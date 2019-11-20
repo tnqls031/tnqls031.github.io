@@ -1,0 +1,15 @@
+#menu {
+    position: fixed;
+    left: inherit;
+}
+#lead {
+    background: url("../images/BingSuBat.png");
+    background-size: contain;
+}
+#lead-overlay {
+    background: gray;
+    opacity: 0.5;
+}
+#lead-content h2 {
+    color: #fff;
+}
