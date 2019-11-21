@@ -6,16 +6,47 @@
     /*background: url("../images/BingSuBat.png");
     background-size: contain;*/
     background: none;
+    position: fixed;
 }
 #lead-overlay {
     /*background: gray;
     opacity: 0.5;*/
-    background: url("../images/BingSuBat.png");
-    background-size: cover;
+    position: fixed;
+    background: url("../images/BingSuBat_trans.png") no-repeat center;
+    background-size: contain;
+    z-index: -10;
+}
+#lead-down {
+    color: #000;
+}
+#lead-down span {
+    border-color: red;
+}
+#lead-content {
+    position: fixed;
+    width: 100%;
+    top: 30vh;
 }
 #lead-content h1 {
-    color: #000;
+    color: red;
 }
 #lead-content h2 {
-    color: #000;
+    color: red;
+}
+#lead-down {
+    position: fixed;
+}
+.btn-rounded-white {
+    border-color: red;
+}
+a.btn-rounded-white {
+    background-color: black;
+}
+#lead~div, footer {
+    position: relative;
+    top: 100vh;
+}
+#about {
+    border-top: 1px solid gray;
+    background-color: white;
 }
