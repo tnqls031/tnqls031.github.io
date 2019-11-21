@@ -11,7 +11,7 @@ $(document).ready(function() {
 $(window).scroll(function(event) {
     var scrollPosition = window.scrollY;
     var height = window.innerHeight - 100;
-    var opacity = 1 - (scrollPosition/height) * 1.9;
+    var opacity = 1 - (scrollPosition/height) * 1.4;
 
     $("#lead-overlay").css("opacity", opacity);
 })
