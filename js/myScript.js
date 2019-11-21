@@ -8,3 +8,14 @@ $(document).ready(function() {
         }
     );
 });
+$(window).scroll(function(event) {
+    var scrollPosition = window.scrollY;
+    var height = window.innerHeight - 100;
+    var opacity = 1 - (scrollPosition/height) * 1.9;
+
+    $("#lead-overlay").css("opacity", opacity);
+})
+$(window).resize(function(event) {
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+})

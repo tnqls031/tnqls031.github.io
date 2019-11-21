@@ -3,13 +3,19 @@
     left: inherit;
 }
 #lead {
-    background: url("../images/BingSuBat.png");
-    background-size: contain;
+    /*background: url("../images/BingSuBat.png");
+    background-size: contain;*/
+    background: none;
 }
 #lead-overlay {
-    background: gray;
-    opacity: 0.5;
+    /*background: gray;
+    opacity: 0.5;*/
+    background: url("../images/BingSuBat.png");
+    background-size: cover;
+}
+#lead-content h1 {
+    color: #000;
 }
 #lead-content h2 {
-    color: #fff;
+    color: #000;
 }
